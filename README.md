@@ -11,16 +11,17 @@
 * **☁️ إدارة الصور:** رفع ومعالجة الصور بكفاءة عبر Cloudinary.
 * **🛡️ لوحة تحكم الأدمن:** إدارة شاملة للمنتجات، الأقسام، الطلبات، والمستخدمين.
 
----
+---## 🛠 الجانب التقني | Technical Stack
 
-## 🛠 الجانب التقني | Technical Stack
-* **State Management:** BLoC / Cubit.
-* **Backend:** Firebase (Firestore, Auth, Realtime Database).
-* **Validation:** نظام تحقق ذكي من البيانات مع Loading States احترافية.
+* **Architecture:** الاعتماد على معمارية **Clean Architecture** لضمان فصل منطق الأعمال عن الواجهات وسهولة الصيانة.
+* **State Management:** إدارة حالة التطبيق باحترافية باستخدام **BLoC / Cubit** لضمان استقرار الأداء وسرعة الاستجابة.
+* **Backend:** التكامل مع **Firebase** (Firestore لقاعدة البيانات، Auth للأمان، و Realtime Database لتتبع الطلبات).
+* **Cloud Image Management:** استخدام **Cloudinary API** لرفع الصور وتخزينها وتحسين حجمها لضمان سرعة تحميل التطبيق.
+* **Real-time Notification System:** نظام تنبيهات لحظي يعتمد على الـ **Badging System**، لتنبيه الأدمن فورياً بالطلبات الجديدة وتحديث حالة المخزون.
+* * **Secure Auth:** نظام تسجيل دخول متكامل يدعم **Google Sign-In** وتأكيد الهوية.
+* **Validation & UX:** نظام تحقق ذكي من البيانات المدخلة مع واجهات **Loading States** و **Shimmer Effect** لتجربة مستخدم سلسة.---
 
----
-
-## 📸 عرض التطبيق الكامل (23 شاشة) | App Showcase
+## 📸 عرض التطبيق | App Showcase
 
 ### 🔐 البداية والتسجيل (Auth & Account)
 <p align="center">
